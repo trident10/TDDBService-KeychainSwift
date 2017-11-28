@@ -1,2 +1,2 @@
 # TDDBService-KeychainSwift
-API of Swift Key Chain Wrapper for TDDBservice
+API of [KeyChain-Swift library](https://github.com/evgenyneu/keychain-swift) for TDDBservice
