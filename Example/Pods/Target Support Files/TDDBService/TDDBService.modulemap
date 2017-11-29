@@ -1,0 +1,6 @@
+framework module TDDBService {
+  umbrella header "TDDBService-umbrella.h"
+
+  export *
+  module * { export * }
+}

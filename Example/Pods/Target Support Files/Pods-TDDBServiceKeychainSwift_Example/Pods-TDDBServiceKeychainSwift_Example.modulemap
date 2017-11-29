@@ -1,0 +1,6 @@
+framework module Pods_TDDBServiceKeychainSwift_Example {
+  umbrella header "Pods-TDDBServiceKeychainSwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
