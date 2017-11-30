@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-    s.dependency 'TDDBService'
+    s.dependency 'TDDBService', '0.1.3'
     s.dependency 'KeychainSwift', '10.0.0'
 
 end
