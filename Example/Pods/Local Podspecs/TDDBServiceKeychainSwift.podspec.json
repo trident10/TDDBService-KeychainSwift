@@ -1,6 +1,6 @@
 {
   "name": "TDDBServiceKeychainSwift",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "summary": "A Keychain API for TDDBService",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/trident10/TDDBService-KeychainSwift",
@@ -12,8 +12,8 @@
     "trident10": "abhimanyujindal10@gmail.com"
   },
   "source": {
-    "git": "https://github.com/trident10/TDDBService-KeychainSwift",
-    "tag": "0.1.0"
+    "git": "https://github.com/trident10/TDDBService-KeychainSwift.git",
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,7 +21,7 @@
   "source_files": "TDDBServiceKeychainSwift/Classes/**/*",
   "dependencies": {
     "TDDBService": [
-
+      "0.1.4"
     ],
     "KeychainSwift": [
       "10.0.0"

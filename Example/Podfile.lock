@@ -1,10 +1,10 @@
 PODS:
   - KeychainSwift (10.0.0)
-  - TDDBService (0.1.3):
+  - TDDBService (0.1.4):
     - TDResult
-  - TDDBServiceKeychainSwift (0.1.0):
+  - TDDBServiceKeychainSwift (0.1.3):
     - KeychainSwift (= 10.0.0)
-    - TDDBService
+    - TDDBService (= 0.1.4)
   - TDResult (0.1.1)
 
 DEPENDENCIES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   KeychainSwift: f9f7910449a0c0fd2cabc889121530dd2c477c33
-  TDDBService: 40be6f5d187722f00646dcfe322b62b84ae14c72
-  TDDBServiceKeychainSwift: 31b317c4be1bc42a32ca8856b38665705cca95e1
+  TDDBService: 7e0c52cd53ee586bbca321942bd06ab2b083eeda
+  TDDBServiceKeychainSwift: 0b911e0697f38ea940a52701a1c7c35140180f11
   TDResult: 8073c47dc4c99174490bce7a35a782ea97ac3c88
 
 PODFILE CHECKSUM: 3fbad802b26108500be18c47bce6c9bf9009826c

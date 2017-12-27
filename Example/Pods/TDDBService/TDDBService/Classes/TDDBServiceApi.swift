@@ -13,7 +13,7 @@ public protocol TDDBServiceApi{
     func call(_ request: TDDBServiceRequest, completionHandler: @escaping TDDBFetchCompletionClosure)
 }
 
-public struct TDDBServiceApiDefault: TDDBServiceApi{
+public class TDDBServiceApiDefault: TDDBServiceApi{
     public var request: TDDBServiceRequest?
     
     public func call(_ request: TDDBServiceRequest, completionHandler: @escaping TDDBFetchCompletionClosure) {

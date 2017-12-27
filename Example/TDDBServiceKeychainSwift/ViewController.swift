@@ -16,9 +16,9 @@ class ViewController: UIViewController {
     var test: Test = Test()
     override func viewDidLoad() {
         super.viewDidLoad()
-        var testData :NSString = "Test"
+        let testData :NSString = "Test"
         
-        test.call(data: testData, methodType: .fetch, predicate: nil, sortDescriptor: nil) { (result) in
+        test.call(data: testData, methodType: .insert, predicate: nil, sortDescriptor: nil) { (result) in
             
         }
         // Do any additional setup after loading the view, typically from a nib.
